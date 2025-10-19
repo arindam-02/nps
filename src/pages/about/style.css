@@ -1,0 +1,89 @@
+.about-page-image {
+  height: 800px;
+  border-radius: 20px;
+}
+.about-title {
+  font-weight: bolder;
+  font-size: 2.6rem;
+  color: #16476a;
+}
+.principal_image {
+  border-radius: 20px;
+}
+/* Overlay for hero section */
+.hero-wrap-2 {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-wrap-2 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.bread {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.breadcrumbs {
+  color: #fff;
+  font-size: 16px;
+}
+
+.breadcrumbs a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.about-title {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+  color: #34495e;
+}
+
+.about-page-image,
+.principal-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-page-image:hover,
+.principal-image:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .hero-wrap-2 {
+    height: 200px;
+  }
+
+  .bread {
+    font-size: 28px;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-text {
+    font-size: 15px;
+  }
+}
