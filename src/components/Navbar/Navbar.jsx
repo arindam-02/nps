@@ -1,7 +1,9 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+  const isActive = (path) => location.pathname === path;
   return (
     <>
       <nav
@@ -29,21 +31,38 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="ftco-nav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
+              <li className={isActive("/") ? "nav-item active" : "nav-item "}>
                 <NavLink to="/" className="nav-link pl-0">
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li
+                className={isActive("/about") ? "nav-item active" : "nav-item "}
+              >
                 <NavLink to="/about" className="nav-link">
                   About
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li
+                className={
+                  isActive("/teacher") ? "nav-item active" : "nav-item "
+                }
+              >
                 <NavLink to="/teacher" className="nav-link">
                   Teacher
                 </NavLink>
+              </li> */}
+
+              <li
+                className={
+                  isActive("/contact") ? "nav-item active" : "nav-item "
+                }
+              >
+                <NavLink to="/contact" className="nav-link">
+                  Contact
+                </NavLink>
               </li>
+
               {/* <li className="nav-item">
                 <NavLink to="/courses" className="nav-link">
                   Courses
@@ -59,11 +78,6 @@ const Navbar = () => {
                   Blog
                 </NavLink>
               </li> */}
-              <li className="nav-item">
-                <NavLink to="/contact" className="nav-link">
-                  Contact
-                </NavLink>
-              </li>
             </ul>
           </div>
         </div>

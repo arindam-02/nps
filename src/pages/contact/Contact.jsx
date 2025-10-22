@@ -36,7 +36,7 @@ const Contact = () => {
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Address</h3>
                 <p className="text-black">
-                  Bagnan, West Bengal, Howrah, 711303
+                  Hizlock More, Bagnan, West Bengal, Howrah, 711303
                 </p>
               </div>
             </div>
@@ -44,8 +44,6 @@ const Contact = () => {
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Contact Number</h3>
                 <p>
-                  <p className="m-0">+91 89455 72020</p>
-                  <p className="m-0">+91 89455 72020</p>
                   <p className="m-0">+91 89455 72020</p>
                 </p>
               </div>
