@@ -1,10 +1,12 @@
 import React from "react";
 import RootRoute from "./router/RootRoute";
+import Maintainance from "./pages/maintainance/Maintainance";
 
 const App = () => {
   return (
     <>
-      <RootRoute />
+      <Maintainance />
+      {/* <RootRoute /> */}
     </>
   );
 };
