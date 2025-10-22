@@ -10,7 +10,7 @@ const Maintainance = () => {
         <Lottie
           animationData={maintainance}
           loop={true}
-          style={{ width: "80vw" }}
+          style={{ width: "50vw" }}
         />
         <p className="message">This Site Is Under Maintanance!</p>
       </div>
