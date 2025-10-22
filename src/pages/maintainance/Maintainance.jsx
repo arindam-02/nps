@@ -7,6 +7,11 @@ const Maintainance = () => {
   return (
     <>
       <div className="d-flex flex-column justify-content-center align-items-center">
+        <img
+          src="../../../assets/images/logo.png"
+          alt="logo"
+          style={{ width: 250, marginTop: "50px" }}
+        />
         <Lottie
           animationData={maintainance}
           loop={true}
