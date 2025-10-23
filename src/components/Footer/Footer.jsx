@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -32,7 +33,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3">
+          {/* <div className="col-md-6 col-lg-3">
             <div className="ftco-footer-widget mb-5">
               <h2 className="ftco-heading-2">Recent Blog</h2>
               <div className="block-21 mb-4 d-flex">
@@ -100,40 +101,30 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          <div className="col-md-6 col-lg-3"></div>
           <div className="col-md-6 col-lg-3">
             <div className="ftco-footer-widget mb-5 ml-md-4">
               <h2 className="ftco-heading-2">Links</h2>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">
+                  <Link to="/">
                     <span className="ion-ios-arrow-round-forward mr-2"></span>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="/about">
                     <span className="ion-ios-arrow-round-forward mr-2"></span>
                     About
-                  </a>
+                  </Link>
                 </li>
+
                 <li>
-                  <a href="#">
-                    <span className="ion-ios-arrow-round-forward mr-2"></span>
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span className="ion-ios-arrow-round-forward mr-2"></span>
-                    Deparments
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <Link to="/contact">
                     <span className="ion-ios-arrow-round-forward mr-2"></span>
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
