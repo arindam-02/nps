@@ -1,6 +1,8 @@
 import React from "react";
 
 const InformationSection = () => {
+  const [showMore, setShowMore] = React.useState(false);
+
   return (
     <>
       <section className="ftco-section ftco-no-pt ftc-no-pb">
@@ -9,25 +11,47 @@ const InformationSection = () => {
             <div className="col-md-5 order-md-last wrap-about py-5 wrap-about bg-light">
               {/* <div className="text px-4 ftco-animate"> */}
               <div className="text px-4">
-                <h2 className="mb-4">Welcome to Kiddos Learning School</h2>
-                <p>
-                  On her way she met a copy. The copy warned the Little Blind
-                  Text, that where it came from it would have been rewritten a
-                  thousand times and everything that was left from its origin
-                  would be the word.
+                <h2 className="mb-4">
+                  Welcome to <br />
+                  <strong style={{ fontFamily: "englishFont" }}>
+                    Nababharati Public School
+                  </strong>
+                </h2>
+                <p className="about-text">
+                  Nababharati Public School, located at Hizlock More, Bagnan,
+                  Howrah, is a premier institution dedicated to the all-round
+                  development of children. Affiliated with the C.B.S.E. (New
+                  Delhi) curriculum and operating as a co-educational school, it
+                  offers classes from Nursery to Standard V (for the current
+                  academic year).
+                  <br />
                 </p>
-                <p>
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics, a large language ocean. A small river named
-                  Duden flows by their place and supplies it with the necessary
-                  regelialia. And if she hasn’t been rewritten, then they are
-                  still using her.
-                </p>
-                <p>
-                  <a href="#" className="btn btn-secondary px-4 py-3">
-                    Read More
-                  </a>
-                </p>
+                {showMore && (
+                  <p className="about-text">
+                    Managed by the Dakshinamurty Foundation, the school places a
+                    strong emphasis on academic excellence, character building,
+                    and holistic development. With AC classrooms, dedicated
+                    educators, and a curriculum that blends academics with
+                    C.A.T. (Creative and Analytical Thinking) sessions,
+                    Nababharati Public School is setting a new benchmark in
+                    foundational education.
+                    <br />
+                    <br />
+                    <strong>Vision:</strong> To nurture young minds into
+                    confident, compassionate, and creative individuals through a
+                    modern, inclusive, and value-based educational environment.
+                    <br />
+                    <strong>Mission:</strong> To provide a safe, supportive, and
+                    intellectually stimulating environment that fosters
+                    curiosity, innovation, and critical thinking.
+                  </p>
+                )}
+                <button
+                  className="btn btn-secondary px-4 py-3"
+                  onClick={() => setShowMore(!showMore)}
+                >
+                  {showMore ? "Read Less" : "Read More"}
+                </button>
               </div>
             </div>
             {/* <div className="col-md-7 wrap-about py-5 pr-md-4 ftco-animate"> */}

@@ -2,3 +2,30 @@
   opacity: 0;
   visibility: hidden;
 }
+
+@font-face {
+  font-family: "bengFont";
+  src: url("../public/assets/fonts/bengfonts/Atma-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "bengFontBold";
+  src: url("../public/assets/fonts/bengfonts/Alkatra-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "hindiFont";
+  src: url("../public/assets/fonts/hindifonts/Kalam-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "hindiFontBold";
+  src: url("../public/assets/fonts/hindifonts/Kalam-Bold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "englishFont";
+  src: url("../public/assets/fonts/englishfonts/Poppins-Medium.ttf")
+    format("truetype");
+}
