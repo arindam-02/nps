@@ -5,8 +5,8 @@ import Maintainance from "./pages/maintainance/Maintainance";
 const App = () => {
   return (
     <>
-      {/* <Maintainance /> */}
-      <RootRoute />
+      <Maintainance />
+      {/* <RootRoute /> */}
     </>
   );
 };

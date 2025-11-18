@@ -52,7 +52,8 @@ const Contact = () => {
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Email Address</h3>
                 <p>
-                  <a href="npsbagnan@gmail.com">npsbagnan@gmail.com</a>
+                  {/* <a href="npsbagnan@gmail.com">npsbagnan@gmail.com</a> */}
+                  <p className="m-0">npsbagnan@gmail.com</p>
                 </p>
               </div>
             </div>
