@@ -26,10 +26,11 @@ const Hero = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: "url(/assets/images/bg_1.jpg)",
+                backgroundImage: "url(/assets/images/banner_image.PNG)",
                 height: "60vh",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                backgroundSize: "tile",
+                backgroundPosition: "top",
+                paddingBottom: "250px",
               }}
             >
               <div className="overlay"></div>
@@ -57,7 +58,7 @@ const Hero = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: "url(/assets/images/bg_2.jpg)",
+                backgroundImage: "url(/assets/images/bg_101.jpeg)",
                 height: "60vh",
                 backgroundSize: "cover",
                 backgroundPosition: "center",

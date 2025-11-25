@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import "./style.css";
 
 const Navbar = () => {
   const location = useLocation();
@@ -12,11 +13,17 @@ const Navbar = () => {
       >
         <div className="container d-flex align-items-center">
           <Link className="navbar-brand" to="/">
-            <img
-              src="../../../assets/images/logo.png"
-              alt="logo"
-              style={{ height: 120 }}
-            />
+            <div className="d-flex">
+              <img
+                src={"../../../assets/images/logo.png"}
+                alt="logo"
+                style={{ height: 120 }}
+              />
+              <div className="d-flex justify-content-center align-items-start flex-column ml-2 ">
+                <p className="mainText">NABABHARATI</p>
+                <p className="subText">PUBLIC SCHOOL</p>
+              </div>
+            </div>
           </Link>
           <button
             className="navbar-toggler"

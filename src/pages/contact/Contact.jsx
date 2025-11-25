@@ -43,34 +43,25 @@ const Contact = () => {
             <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Contact Number</h3>
-                <p>
-                  <p className="m-0">+91 89455 72020</p>
-                </p>
+                <p className="m-0">+91 89455 72020</p>
               </div>
             </div>
             <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Email Address</h3>
-                <p>
-                  {/* <a href="npsbagnan@gmail.com">npsbagnan@gmail.com</a> */}
-                  <p className="m-0">npsbagnan@gmail.com</p>
-                </p>
+                <p className="m-0">npsbagnan@gmail.com</p>
               </div>
             </div>
             <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Trust Email</h3>
-                <p>
-                  <a href="#">dakshinamurtyfoundation@gmail.com</a>
-                </p>
+                <p className="m-0">dakshinamurtyfoundation@gmail.com</p>
               </div>
             </div>
             <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Trust Website</h3>
-                <p>
-                  <a href="#">dmurtifoundation.org</a>
-                </p>
+                <p className="m-0">dmurtifoundation.org</p>
               </div>
             </div>
           </div>
