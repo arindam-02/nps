@@ -20,10 +20,10 @@ const InformationSection = () => {
                 <p className="about-text">
                   Nababharati Public School, located at Hizlock More, Bagnan,
                   Howrah, is a premier institution dedicated to the all-round
-                  development of children. Affiliated with the C.B.S.E. (New
-                  Delhi) curriculum and operating as a co-educational school, it
-                  offers classes from Nursery to Standard V (for the current
-                  academic year).
+                  development of children. Based on the C.B.S.E. (New Delhi)
+                  curriculum and operating as a co-educational school, it offers
+                  classes from Nursery to Standard IV (for the current academic
+                  year).
                   <br />
                 </p>
                 {showMore && (

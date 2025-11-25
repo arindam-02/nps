@@ -108,7 +108,7 @@ const About = () => {
           /* Principal Section English*/
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <h2 className="about-title mb-4">Principal's View</h2>
+              <h2 className="about-title mb-4">Principal's Message</h2>
               <p className="about-text">
                 Dear Parents, Guardians, and Community Members,
                 <br />
