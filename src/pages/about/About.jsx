@@ -37,7 +37,7 @@ const About = () => {
         <div className="row align-items-center mb-5">
           <div className="col-lg-6 mb-4 mb-lg-0">
             <img
-              src="https://images.unsplash.com/photo-1705810591530-02053b1a9954?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735"
+              src={"../../../assets/images/logo.png"}
               alt="schoolImage"
               className="img-fluid rounded shadow about-page-image"
             />
@@ -147,7 +147,7 @@ const About = () => {
             </div>
             <div className="col-lg-6 text-center">
               <img
-                src="https://images.unsplash.com/photo-1700631102134-9aef0b7fe818?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Nob29sJTIwcHJpbmNpcGFsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
+                src={"../../../assets/images/principal_nps.jpeg"}
                 alt="principal"
                 className="img-fluid rounded shadow principal-image"
               />
