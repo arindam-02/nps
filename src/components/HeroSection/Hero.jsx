@@ -37,17 +37,23 @@ const Hero = () => {
               <div className="container">
                 <div className="row no-gutters slider-text align-items-center justify-content-center">
                   <div className="col-md-8 text-center d-flex flex-column justify-content-center align-items-center ">
-                    <h1 className="mb-4 banner-heading-text">
+                    <h1
+                      className="mb-4 banner-heading-text"
+                      style={{
+                        fontWeight: "800",
+                        textShadow: "4px 4px 4px #000000",
+                      }}
+                    >
                       Kids Are The Best <span>Explorers In The World</span>
                     </h1>
-                    <p>
+                    {/* <p>
                       <a
                         href="#read-more"
                         className="btn btn-secondary px-4 py-3 mt-3"
                       >
                         Read More
                       </a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -68,17 +74,23 @@ const Hero = () => {
               <div className="container">
                 <div className="row no-gutters text-center slider-text align-items-center justify-content-center">
                   <div className="col-md-8 ">
-                    <h1 className="mb-4 banner-heading-text">
+                    <h1
+                      className="mb-4 banner-heading-text"
+                      style={{
+                        fontWeight: "800",
+                        textShadow: "4px 4px 4px #000000",
+                      }}
+                    >
                       Perfect Learning <span>For Your Child</span>
                     </h1>
-                    <p>
+                    {/* <p>
                       <a
                         href="#read-more"
                         className="btn btn-secondary px-4 py-3 mt-3"
                       >
                         Read More
                       </a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

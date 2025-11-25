@@ -14,7 +14,7 @@ const Home = () => {
         <InformationSection />
         <CourseBanner />
         <TeacherInfoSection />
-        <CourseSection />
+        {/* <CourseSection /> */}
       </Layout>
     </>
   );
