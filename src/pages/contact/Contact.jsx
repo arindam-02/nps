@@ -61,7 +61,7 @@ const Contact = () => {
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Trust Email</h3>
                 <p>
-                  <a href="#">demo_trust@email.com</a>
+                  <a href="#">dakshinamurtyfoundation@gmail.com</a>
                 </p>
               </div>
             </div>

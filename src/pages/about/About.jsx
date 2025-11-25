@@ -47,9 +47,9 @@ const About = () => {
             <p className="about-text">
               Nababharati Public School, located at Hizlock More, Bagnan,
               Howrah, is a premier institution dedicated to the all-round
-              development of children. Affiliated with the C.B.S.E. (New Delhi)
+              development of children. Based on the C.B.S.E. (New Delhi)
               curriculum and operating as a co-educational school, it offers
-              classes from Nursery to Standard V (for the current academic
+              classes from Nursery to Standard IV (for the current academic
               year).
               <br />
               <br />
@@ -114,10 +114,10 @@ const About = () => {
                 <br />
                 <br />
                 It is with immense joy and anticipation that I welcome you to
-                the launch of our new primary school, a nurturing space for
-                young minds from Nursery to Class 4. Nestled in the heart of our
-                semi-urban community, our school is more than just a building—it
-                is a promise of possibility, growth, and joyful learning.
+                the launch of our new school, a nurturing space for young minds
+                from Nursery. Nestled in the heart of our semi-urban community,
+                our school is more than just a building—it is a promise of
+                possibility, growth, and joyful learning.
                 <br />
                 <br />
                 We believe that every child is a unique spark, and our mission
@@ -168,11 +168,11 @@ const About = () => {
 
                 <p>
                   অত্যন্ত আনন্দ ও উত্তেজনার সঙ্গে আমি আপনাদের স্বাগত জানাচ্ছি
-                  নবভারতী পাবলিক স্কুল -এর শুভ সূচনায়। সামান্য থেকে চতুর্থ
-                  শ্রেণি পর্যন্ত ছোট ছোট শিক্ষার্থীদের জন্য এটি একটি নিবেদিত
-                  শিক্ষাঙ্গন। আমাদের আশাপাশের এলাকায় অবস্থিত এই বিদ্যালয়
-                  শিক্ষার্থীদের একটি উন্নত ভবিষ্যৎ গড়ার লক্ষ্য—এটি সহযোগিতা,
-                  বিকাশ এবং আনন্দময় শিক্ষার একটি অভিজ্ঞান।
+                  নবভারতী পাবলিক স্কুল -এর শুভ সূচনায়। সামান্য থেকে ছোট ছোট
+                  শিক্ষার্থীদের জন্য এটি একটি নিবেদিত শিক্ষাঙ্গন। আমাদের
+                  আশাপাশের এলাকায় অবস্থিত এই বিদ্যালয় শিক্ষার্থীদের একটি উন্নত
+                  ভবিষ্যৎ গড়ার লক্ষ্য—এটি সহযোগিতা, বিকাশ এবং আনন্দময় শিক্ষার
+                  একটি অভিজ্ঞান।
                 </p>
 
                 <p>
@@ -207,7 +207,7 @@ const About = () => {
             </div>
             <div className="col-lg-6 text-center">
               <img
-                src="https://images.unsplash.com/photo-1700631102134-9aef0b7fe818?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Nob29sJTIwcHJpbmNpcGFsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
+                src={"../../../assets/images/principal_nps.jpeg"}
                 alt="principal"
                 className="img-fluid rounded shadow principal-image"
               />
@@ -229,10 +229,10 @@ const About = () => {
                 <p>
                   यह अत्यंत हर्ष और उत्साह के साथ है कि मैं आपको नवभारती पब्लिक
                   स्कूल के शुभारंभ पर स्वागत करती हूँ—एक पूर्ण शिक्षण स्थल जहाँ
-                  नर्सरी से कक्षा 4 तक के नन्हे-मुन्ने बच्चों के लिए सीखने की
-                  यात्रा शुरू होती है। हमारे अर्ध-शहरी क्षेत्र के बीच स्थित यह
-                  विद्यालय केवल एक इमारत नहीं, बल्कि संभावनाओं, विकास और आनंदमय
-                  शिक्षा का द्वार है।
+                  नर्सरी से नन्हे-मुन्ने बच्चों के लिए सीखने की यात्रा शुरू होती
+                  है। हमारे अर्ध-शहरी क्षेत्र के बीच स्थित यह विद्यालय केवल एक
+                  इमारत नहीं, बल्कि संभावनाओं, विकास और आनंदमय शिक्षा का द्वार
+                  है।
                 </p>
 
                 <p>
@@ -267,7 +267,7 @@ const About = () => {
             </div>
             <div className="col-lg-6 text-center">
               <img
-                src="https://images.unsplash.com/photo-1700631102134-9aef0b7fe818?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Nob29sJTIwcHJpbmNpcGFsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
+                src={"../../../assets/images/principal_nps.jpeg"}
                 alt="principal"
                 className="img-fluid rounded shadow principal-image"
               />
