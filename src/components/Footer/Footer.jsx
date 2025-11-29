@@ -11,8 +11,8 @@ const Footer = () => {
         rel="noopener noreferrer"
         style={{
           position: "fixed",
-          bottom: "20px",
-          right: "20px",
+          bottom: "40px",
+          right: "30px",
           backgroundColor: "#25D366",
           color: "#fff",
           borderRadius: "50%",
