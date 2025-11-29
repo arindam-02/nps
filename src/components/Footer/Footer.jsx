@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -150,22 +151,31 @@ const Footer = () => {
             <div className="ftco-footer-widget mb-5">
               <h2 className="ftco-heading-2 mb-0">Connect With Us</h2>
               <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li className="">
-                  {/* <li className="ftco-animate"> */}
+                {/* <li className="">
                   <a href="#">
                     <span className="icon-twitter"></span>
                   </a>
-                </li>
+                </li> */}
                 <li className="">
-                  {/* <li className="ftco-animate"> */}
-                  <a href="#">
+                  <a href="https://www.facebook.com/share/162EKsFKLv/">
                     <span className="icon-facebook"></span>
                   </a>
                 </li>
-                <li className="">
-                  {/* <li className="ftco-animate"> */}
+                {/* <li className="">
                   <a href="https://google.co.in/">
                     <span className="icon-instagram"></span>
+                  </a>
+                </li> */}
+
+                <li>
+                  <a
+                    href="https://wa.me/8945572020"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-success d-flex align-items-center"
+                  >
+                    {/* <i className="icon-facebook me-2"></i> */}
+                    <FaWhatsapp />
                   </a>
                 </li>
               </ul>
