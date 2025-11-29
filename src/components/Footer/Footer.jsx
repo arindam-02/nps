@@ -169,12 +169,11 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="https://wa.me/8945572020"
+                    href="https://wa.me/+918945572020"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-success d-flex align-items-center"
                   >
-                    {/* <i className="icon-facebook me-2"></i> */}
                     <FaWhatsapp />
                   </a>
                 </li>
