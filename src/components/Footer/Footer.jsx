@@ -5,6 +5,27 @@ import { FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="ftco-footer ftco-bg-dark ftco-section">
+      <a
+        href="https://wa.me/+918945572020"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          right: "20px",
+          backgroundColor: "#25D366",
+          color: "#fff",
+          borderRadius: "50%",
+          padding: "15px",
+          fontSize: "24px",
+          textAlign: "center",
+          boxShadow: "0px 4px 10px rgba(0,0,0,0.3)",
+          zIndex: 1000,
+        }}
+      >
+        <FaWhatsapp size={30} />
+      </a>
+
       <div className="container">
         <div className="row mb-5">
           <div className="col-md-6 col-lg-3">
