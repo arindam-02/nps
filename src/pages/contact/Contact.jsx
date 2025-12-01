@@ -58,12 +58,12 @@ const Contact = () => {
                 <p className="m-0">dakshinamurtyfoundation@gmail.com</p>
               </div>
             </div>
-            <div className="col-md-2 d-flex">
+            {/* <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Trust Website</h3>
                 <p className="m-0">dmurtifoundation.org</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
