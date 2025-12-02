@@ -15,6 +15,8 @@ const Footer = () => {
           right: "30px",
           backgroundColor: "#25D366",
           color: "#fff",
+          height: "80px",
+          width: "80px",
           borderRadius: "50%",
           padding: "15px",
           fontSize: "24px",
