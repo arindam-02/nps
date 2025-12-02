@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -178,8 +178,16 @@ const Footer = () => {
                   </a>
                 </li> */}
                 <li className="">
-                  <a href="https://www.facebook.com/share/162EKsFKLv/">
+                  {/* <a href="https://www.facebook.com/share/162EKsFKLv/">
                     <span className="icon-facebook"></span>
+                  </a> */}
+                  <a
+                    href="https://www.facebook.com/share/162EKsFKLv/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-info d-flex align-items-center"
+                  >
+                    <FaFacebookF />
                   </a>
                 </li>
                 {/* <li className="">

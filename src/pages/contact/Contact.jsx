@@ -7,7 +7,9 @@ const Contact = () => {
     <Layout>
       <section
         className="hero-wrap hero-wrap-2"
-        style={{ backgroundImage: "url('/assets/images/bg_2.jpg')" }}
+        style={{
+          backgroundImage: "url('/assets/images/book_breadcrumbs.jpg')",
+        }}
       >
         <div className="overlay"></div>
         <div className="container">
@@ -44,6 +46,7 @@ const Contact = () => {
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Contact Number</h3>
                 <p className="m-0">+91 89455 72020</p>
+                <p className="m-0">+91 86229 82595</p>
               </div>
             </div>
             <div className="col-md-2 d-flex">
@@ -52,13 +55,13 @@ const Contact = () => {
                 <p className="m-0">npsbagnan@gmail.com</p>
               </div>
             </div>
-            <div className="col-md-2 d-flex">
+            {/* <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Trust Email</h3>
                 <p className="m-0">dakshinamurtyfoundation@gmail.com</p>
               </div>
-            </div>
-            {/* <div className="col-md-2 d-flex">
+            </div> 
+            <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Trust Website</h3>
                 <p className="m-0">dmurtifoundation.org</p>

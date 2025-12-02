@@ -10,7 +10,10 @@ const About = () => {
       {/* Hero Section */}
       <section
         className="hero-wrap hero-wrap-2"
-        style={{ backgroundImage: "url('/assets/images/bg_2.jpg')" }}
+        // style={{ backgroundImage: "url('/assets/images/bg_2.jpg')" }}
+        style={{
+          backgroundImage: "url('/assets/images/book_breadcrumbs.jpg')",
+        }}
       >
         <div className="overlay"></div>
         <div className="container">
@@ -56,9 +59,9 @@ const About = () => {
               Managed by the Dakshinamurty Foundation, the school places a
               strong emphasis on academic excellence, character building, and
               holistic development. With AC classrooms, dedicated educators, and
-              a curriculum that blends academics with C.A.T. (Creative and
-              Analytical Thinking) sessions, Nababharati Public School is
-              setting a new benchmark in foundational education.
+              a curriculum that blends academics with Computer-aided teaching
+              (CAT) sessions, Nababharati Public School is setting a new
+              benchmark in foundational education.
               <br />
               <br />
               <strong>Vision:</strong> To nurture young minds into confident,

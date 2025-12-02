@@ -112,8 +112,8 @@ const Hero = () => {
                 <div className="media-body p-2 mt-3">
                   <h3 className="heading">Certified Teachers</h3>
                   <p>
-                    Even the all-powerful Pointing has no control about the
-                    blind texts it is an almost unorthographic.
+                    Our experienced and qualified teachers guide students with
+                    care, clarity, and dedication.
                   </p>
                 </div>
               </div>
@@ -127,8 +127,8 @@ const Hero = () => {
                 <div className="media-body p-2 mt-3">
                   <h3 className="heading">Special Activities</h3>
                   <p>
-                    Even the all-powerful Pointing has no control about the
-                    blind texts it is an almost unorthographic.
+                    Engaging activities help children explore their talents,
+                    build confidence, and learn creatively.
                   </p>
                 </div>
               </div>
@@ -142,8 +142,8 @@ const Hero = () => {
                 <div className="media-body p-2 mt-3">
                   <h3 className="heading">Book &amp; Library</h3>
                   <p>
-                    Even the all-powerful Pointing has no control about the
-                    blind texts it is an almost unorthographic.
+                    A well-stocked library nurtures curiosity, reading habits,
+                    and a love for lifelong learning.
                   </p>
                 </div>
               </div>
@@ -157,8 +157,8 @@ const Hero = () => {
                 <div className="media-body p-2 mt-3">
                   <h3 className="heading">Certification</h3>
                   <p>
-                    Even the all-powerful Pointing has no control about the
-                    blind texts it is an almost unorthographic.
+                    We provide recognized certifications that reflect students’
+                    skills, achievements, and growth.
                   </p>
                 </div>
               </div>
