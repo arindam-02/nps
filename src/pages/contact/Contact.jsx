@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -18,9 +19,9 @@ const Contact = () => {
               <h1 className="mb-2 bread">Contact Us</h1>
               <p className="breadcrumbs">
                 <span className="mr-2">
-                  <a href="index.html">
+                  <Link to="/">
                     Home <i className="ion-ios-arrow-forward"></i>
-                  </a>
+                  </Link>
                 </span>
                 <span>
                   Contact <i className="ion-ios-arrow-forward"></i>

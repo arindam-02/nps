@@ -143,7 +143,7 @@ const About = () => {
                 <br />
                 <br />
                 <p className="m-0">Warm regards,</p>
-                <strong> Nibetita Rawat Mukherjee </strong>
+                <strong>NIVEDITA RAWAT MUKHERJEE</strong>
                 <p className="m-0">Principal</p>
                 <p className="m-0">Nababharati Public School</p>
               </p>

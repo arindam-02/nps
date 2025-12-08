@@ -60,6 +60,16 @@ const Navbar = () => {
                 </NavLink>
               </li> */}
 
+              {/* <li
+                className={
+                  isActive("/admission") ? "nav-item active" : "nav-item "
+                }
+              >
+                <NavLink to="/admission" className="nav-link">
+                  Admission
+                </NavLink>
+              </li> */}
+
               <li
                 className={
                   isActive("/contact") ? "nav-item active" : "nav-item "
