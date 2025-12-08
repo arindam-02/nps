@@ -38,7 +38,7 @@ const Footer = () => {
                   <li>
                     <span className="icon icon-map-marker"></span>
                     <span className="text">
-                      Bagnan, West Bengal, Howrah, 711303
+                      Hizlock More, Bagnan, West Bengal, Howrah, 711303
                     </span>
                   </li>
                   <li>
