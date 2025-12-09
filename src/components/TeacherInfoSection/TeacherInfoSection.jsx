@@ -27,6 +27,11 @@ const TeacherInfoSection = () => {
       degree: "MA, B.Ed",
       designation: "Assistant Teacher",
     },
+    {
+      name: "Arpita Chakraborty",
+      degree: "BA, D.El.Ed.",
+      designation: "Assistant Teacher",
+    },
   ];
 
   return (
