@@ -5,6 +5,8 @@ import Home from "../pages/Home";
 import Teacher from "../pages/Teacher";
 import Contact from "../pages/contact/Contact";
 import About from "../pages/about/About";
+import Admission from "../pages/Admission/Admission";
+import Gallery from "../pages/gallery/Gallery";
 
 const RootRoute = () => {
   return (
@@ -13,7 +15,9 @@ const RootRoute = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/admission" element={<Admission />} />
         <Route path="/teacher" element={<Teacher />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </>
   );

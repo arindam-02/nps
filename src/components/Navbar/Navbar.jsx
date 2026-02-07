@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import "./style.css";
 
 const Navbar = () => {
   const location = useLocation();
@@ -12,11 +13,17 @@ const Navbar = () => {
       >
         <div className="container d-flex align-items-center">
           <Link className="navbar-brand" to="/">
-            <img
-              src="../../../assets/images/logo.png"
-              alt="logo"
-              style={{ height: 120 }}
-            />
+            <div className="d-flex">
+              <img
+                src={"../../../assets/images/logo.png"}
+                alt="logo"
+                style={{ height: 120 }}
+              />
+              <div className="d-flex justify-content-center align-items-start flex-column ml-2 ">
+                <p className="mainText">NABABHARATI</p>
+                <p className="subText">PUBLIC SCHOOL</p>
+              </div>
+            </div>
           </Link>
           <button
             className="navbar-toggler"
@@ -43,6 +50,15 @@ const Navbar = () => {
                   About
                 </NavLink>
               </li>
+              <li
+                className={
+                  isActive("/gallery") ? "nav-item active" : "nav-item "
+                }
+              >
+                <NavLink to="/gallery" className="nav-link">
+                  Gallery
+                </NavLink>
+              </li>
               {/* <li
                 className={
                   isActive("/teacher") ? "nav-item active" : "nav-item "
@@ -50,6 +66,16 @@ const Navbar = () => {
               >
                 <NavLink to="/teacher" className="nav-link">
                   Teacher
+                </NavLink>
+              </li> */}
+
+              {/* <li
+                className={
+                  isActive("/admission") ? "nav-item active" : "nav-item "
+                }
+              >
+                <NavLink to="/admission" className="nav-link">
+                  Admission
                 </NavLink>
               </li> */}
 

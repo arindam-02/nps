@@ -5,6 +5,7 @@ import InformationSection from "../components/InfoSection/InformationSection";
 import CourseBanner from "../components/CourseBanner/CourseBanner";
 import TeacherInfoSection from "../components/TeacherInfoSection/TeacherInfoSection";
 import CourseSection from "../components/CourseSection/CourseSection";
+import GalleryComponent from "../components/Gallery/GalleryComponent";
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
         <InformationSection />
         <CourseBanner />
         <TeacherInfoSection />
-        <CourseSection />
+        {/* <CourseSection /> */}
+        {/* <GalleryComponent /> */}
       </Layout>
     </>
   );

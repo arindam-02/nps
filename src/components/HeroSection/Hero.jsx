@@ -26,27 +26,34 @@ const Hero = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: "url(/assets/images/bg_1.jpg)",
+                backgroundImage: "url(/assets/images/banner_image.PNG)",
                 height: "60vh",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                backgroundSize: "tile",
+                backgroundPosition: "top",
+                paddingBottom: "250px",
               }}
             >
               <div className="overlay"></div>
               <div className="container">
                 <div className="row no-gutters slider-text align-items-center justify-content-center">
                   <div className="col-md-8 text-center d-flex flex-column justify-content-center align-items-center ">
-                    <h1 className="mb-4 banner-heading-text">
+                    <h1
+                      className="mb-4 banner-heading-text"
+                      style={{
+                        fontWeight: "800",
+                        textShadow: "4px 4px 4px #000000",
+                      }}
+                    >
                       Kids Are The Best <span>Explorers In The World</span>
                     </h1>
-                    <p>
+                    {/* <p>
                       <a
                         href="#read-more"
                         className="btn btn-secondary px-4 py-3 mt-3"
                       >
                         Read More
                       </a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -57,7 +64,7 @@ const Hero = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: "url(/assets/images/bg_2.jpg)",
+                backgroundImage: "url(/assets/images/bg_101.jpeg)",
                 height: "60vh",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -67,17 +74,23 @@ const Hero = () => {
               <div className="container">
                 <div className="row no-gutters text-center slider-text align-items-center justify-content-center">
                   <div className="col-md-8 ">
-                    <h1 className="mb-4 banner-heading-text">
+                    <h1
+                      className="mb-4 banner-heading-text"
+                      style={{
+                        fontWeight: "800",
+                        textShadow: "4px 4px 4px #000000",
+                      }}
+                    >
                       Perfect Learning <span>For Your Child</span>
                     </h1>
-                    <p>
+                    {/* <p>
                       <a
                         href="#read-more"
                         className="btn btn-secondary px-4 py-3 mt-3"
                       >
                         Read More
                       </a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -99,8 +112,8 @@ const Hero = () => {
                 <div className="media-body p-2 mt-3">
                   <h3 className="heading">Certified Teachers</h3>
                   <p>
-                    Even the all-powerful Pointing has no control about the
-                    blind texts it is an almost unorthographic.
+                    Our experienced and qualified teachers guide students with
+                    care, clarity, and dedication.
                   </p>
                 </div>
               </div>
@@ -114,8 +127,8 @@ const Hero = () => {
                 <div className="media-body p-2 mt-3">
                   <h3 className="heading">Special Activities</h3>
                   <p>
-                    Even the all-powerful Pointing has no control about the
-                    blind texts it is an almost unorthographic.
+                    Engaging activities help children explore their talents,
+                    build confidence, and learn creatively.
                   </p>
                 </div>
               </div>
@@ -129,8 +142,8 @@ const Hero = () => {
                 <div className="media-body p-2 mt-3">
                   <h3 className="heading">Book &amp; Library</h3>
                   <p>
-                    Even the all-powerful Pointing has no control about the
-                    blind texts it is an almost unorthographic.
+                    A well-stocked library nurtures curiosity, reading habits,
+                    and a love for lifelong learning.
                   </p>
                 </div>
               </div>
@@ -144,8 +157,8 @@ const Hero = () => {
                 <div className="media-body p-2 mt-3">
                   <h3 className="heading">Certification</h3>
                   <p>
-                    Even the all-powerful Pointing has no control about the
-                    blind texts it is an almost unorthographic.
+                    We provide recognized certifications that reflect students’
+                    skills, achievements, and growth.
                   </p>
                 </div>
               </div>

@@ -1,9 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaWhatsapp, FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="ftco-footer ftco-bg-dark ftco-section">
+      <a
+        href="https://wa.me/+918945572020"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: "fixed",
+          bottom: "40px",
+          right: "30px",
+          backgroundColor: "#25D366",
+          color: "#fff",
+          height: "80px",
+          width: "80px",
+          borderRadius: "50%",
+          padding: "15px",
+          fontSize: "24px",
+          textAlign: "center",
+          boxShadow: "0px 4px 10px rgba(0,0,0,0.3)",
+          zIndex: 1000,
+        }}
+      >
+        <FaWhatsapp size={30} />
+      </a>
+
       <div className="container">
         <div className="row mb-5">
           <div className="col-md-6 col-lg-3">
@@ -14,13 +38,15 @@ const Footer = () => {
                   <li>
                     <span className="icon icon-map-marker"></span>
                     <span className="text">
-                      Bagnan, West Bengal, Howrah, 711303
+                      Hizlock More, Bagnan, West Bengal, Howrah, 711303
                     </span>
                   </li>
                   <li>
                     <a href="#">
                       <span className="icon icon-phone"></span>
                       <span className="text">+91 89455 72020</span>
+                      <span> / </span>
+                      <span className="text">+91 86229 82595</span>
                     </a>
                   </li>
                   <li>
@@ -150,22 +176,38 @@ const Footer = () => {
             <div className="ftco-footer-widget mb-5">
               <h2 className="ftco-heading-2 mb-0">Connect With Us</h2>
               <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li className="">
-                  {/* <li className="ftco-animate"> */}
+                {/* <li className="">
                   <a href="#">
                     <span className="icon-twitter"></span>
                   </a>
-                </li>
+                </li> */}
                 <li className="">
-                  {/* <li className="ftco-animate"> */}
-                  <a href="#">
+                  {/* <a href="https://www.facebook.com/share/162EKsFKLv/">
                     <span className="icon-facebook"></span>
+                  </a> */}
+                  <a
+                    href="https://www.facebook.com/share/162EKsFKLv/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-info d-flex align-items-center"
+                  >
+                    <FaFacebookF />
                   </a>
                 </li>
-                <li className="">
-                  {/* <li className="ftco-animate"> */}
+                {/* <li className="">
                   <a href="https://google.co.in/">
                     <span className="icon-instagram"></span>
+                  </a>
+                </li> */}
+
+                <li>
+                  <a
+                    href="https://wa.me/+918945572020"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-success d-flex align-items-center"
+                  >
+                    <FaWhatsapp />
                   </a>
                 </li>
               </ul>

@@ -1,0 +1,42 @@
+/* Container */
+.gallery-wrapper {
+  padding: 16px;
+}
+
+/* LightGallery React root */
+.lg-react-element {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+
+  column-count: 4;
+  gap: 14px;
+}
+
+/* Fixed-size thumbnail */
+.gallery-item {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* square thumbnails */
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Image styling */
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 🔥 keeps same size */
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.gallery-item:hover img {
+  transform: scale(1.06);
+}
+.gallery-item {
+  aspect-ratio: 4 / 3;
+}

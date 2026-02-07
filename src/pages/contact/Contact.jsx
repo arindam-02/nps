@@ -1,13 +1,16 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
     <Layout>
       <section
         className="hero-wrap hero-wrap-2"
-        style={{ backgroundImage: "url('/assets/images/bg_2.jpg')" }}
+        style={{
+          backgroundImage: "url('/assets/images/book_breadcrumbs.jpg')",
+        }}
       >
         <div className="overlay"></div>
         <div className="container">
@@ -16,9 +19,9 @@ const Contact = () => {
               <h1 className="mb-2 bread">Contact Us</h1>
               <p className="breadcrumbs">
                 <span className="mr-2">
-                  <a href="index.html">
+                  <Link to="/">
                     Home <i className="ion-ios-arrow-forward"></i>
-                  </a>
+                  </Link>
                 </span>
                 <span>
                   Contact <i className="ion-ios-arrow-forward"></i>
@@ -43,35 +46,28 @@ const Contact = () => {
             <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Contact Number</h3>
-                <p>
-                  <p className="m-0">+91 89455 72020</p>
-                </p>
+                <p className="m-0">+91 89455 72020</p>
+                <p className="m-0">+91 86229 82595</p>
               </div>
             </div>
             <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Email Address</h3>
-                <p>
-                  <a href="npsbagnan@gmail.com">npsbagnan@gmail.com</a>
-                </p>
+                <p className="m-0">npsbagnan@gmail.com</p>
               </div>
             </div>
-            <div className="col-md-2 d-flex">
+            {/* <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Trust Email</h3>
-                <p>
-                  <a href="#">demo_trust@email.com</a>
-                </p>
+                <p className="m-0">dakshinamurtyfoundation@gmail.com</p>
               </div>
-            </div>
+            </div> 
             <div className="col-md-2 d-flex">
               <div className="bg-light align-self-stretch box p-4 text-center">
                 <h3 className="mb-4">Trust Website</h3>
-                <p>
-                  <a href="#">dmurtifoundation.org</a>
-                </p>
+                <p className="m-0">dmurtifoundation.org</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
