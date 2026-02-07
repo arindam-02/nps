@@ -147,6 +147,13 @@ const Footer = () => {
                 </li>
 
                 <li>
+                  <Link to="/gallery">
+                    <span className="ion-ios-arrow-round-forward mr-2"></span>
+                    Gallery
+                  </Link>
+                </li>
+
+                <li>
                   <Link to="/contact">
                     <span className="ion-ios-arrow-round-forward mr-2"></span>
                     Contact
