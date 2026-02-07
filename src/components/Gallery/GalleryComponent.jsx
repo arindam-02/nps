@@ -22,10 +22,22 @@ const images = [
   { id: 6, src: "/assets/images/_gallery_images/6.jpeg", alt: "Image 6" },
   { id: 7, src: "/assets/images/_gallery_images/7.jpeg", alt: "Image 7" },
   { id: 8, src: "/assets/images/_gallery_images/8.jpeg", alt: "Image 8" },
-  { id: 9, src: "/assets/images/_gallery_images/9.jpeg", alt: "Image 9" },
+  {
+    id: 9,
+    src: "/assets/images/_gallery_images/9.jpeg",
+    alt: "Height Cheking in School",
+  },
   { id: 10, src: "/assets/images/_gallery_images/10.jpeg", alt: "Image 10" },
-  { id: 11, src: "/assets/images/_gallery_images/11.jpeg", alt: "Image 11" },
-  { id: 12, src: "/assets/images/_gallery_images/12.jpeg", alt: "Image 12" },
+  {
+    id: 11,
+    src: "/assets/images/_gallery_images/11.jpeg",
+    alt: "Puja in School",
+  },
+  {
+    id: 12,
+    src: "/assets/images/_gallery_images/12.jpeg",
+    alt: "School Reception",
+  },
 ];
 
 const GalleryComponent = () => {
