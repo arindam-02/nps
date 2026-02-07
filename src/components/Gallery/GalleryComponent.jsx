@@ -38,6 +38,11 @@ const images = [
     src: "/assets/images/_gallery_images/12.jpeg",
     alt: "School Reception",
   },
+  {
+    id: 13,
+    src: "/assets/images/_gallery_images/15.jpeg",
+    alt: "Saraswati Puja 2026",
+  },
 ];
 
 const GalleryComponent = () => {
