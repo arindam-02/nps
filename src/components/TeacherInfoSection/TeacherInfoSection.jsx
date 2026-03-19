@@ -32,6 +32,11 @@ const TeacherInfoSection = () => {
       degree: "BA, D.El.Ed.",
       designation: "Assistant Teacher",
     },
+    {
+      name: "Swarnali Chowdhury",
+      degree: "MA, D.El.Ed.",
+      designation: "Assistant Teacher",
+    },
   ];
 
   return (
