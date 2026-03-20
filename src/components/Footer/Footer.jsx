@@ -226,7 +226,7 @@ const Footer = () => {
             <p>
               All rights reserved | Copyright &copy; {new Date().getFullYear()}
               &nbsp;by
-              <a href="https://colorlib.com" target="_blank">
+              <a href="#" target="_blank">
                 &nbsp;Arin
               </a>
             </p>
