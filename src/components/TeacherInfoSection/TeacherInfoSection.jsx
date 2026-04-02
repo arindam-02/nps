@@ -12,11 +12,11 @@ const TeacherInfoSection = () => {
       degree: "B.A.,  D.el. Ed, CTET, WBTET Qualified",
       designation: "Assistant Teacher",
     },
-    {
-      name: "Sabyasachi Chatterjee",
-      degree: "B.Tech",
-      designation: "Assistant Teacher",
-    },
+    // {
+    //   name: "Sabyasachi Chatterjee",
+    //   degree: "B.Tech",
+    //   designation: "Assistant Teacher",
+    // },
     {
       name: "Shreya Ghoshal",
       degree: "B.Sc., Montessori teachers trained",
